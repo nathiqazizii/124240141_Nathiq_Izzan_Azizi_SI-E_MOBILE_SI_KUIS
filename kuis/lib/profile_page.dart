@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'stationery_item.dart';
 
-/// Hanya menampilkan data -> StatelessWidget
 class ProfilePage extends StatelessWidget {
   final List<StationeryItem> items;
   const ProfilePage({super.key, required this.items});
